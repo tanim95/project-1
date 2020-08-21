@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../project/ab.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ece6e6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+a {
+  color: #c70039;
+  text-decoration: none;
+}
+button a {
+  color: #000;
+}
+small a {
+  color: rgb(8, 160, 8);
+}
+.login {
+  color: #fff;
+}
+
+.container {
+  border-radius: 1rem;
+  border: 2px black solid;
+  width: 1000px;
+  max-width: 100%;
+  display: flex;
+  box-shadow: inset 10px 8px 18px rgba(0, 0, 0, 0.2);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  flex: 1;
+  box-shadow: 10px 8px 18px rgba(0, 0, 0, 0.2);
+}
+.features {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  flex: 2;
+}
+.feature h3 {
+  left: 25px;
+  letter-spacing: 0.3rem;
+  line-height: 0.5rem;
+  position: relative;
+}
+.feature {
+  margin-top: 30px;
+  position: relative;
+}
+.feature i {
+  position: absolute;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #000;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: normal;
+  padding: 10px;
+  width: 70%;
+  min-height: 2.5rem;
+  margin: 15px 0px;
+}
+.btn-ghost {
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  border: rgb(154, 156, 158) 1px solid;
+}
+.btn-2 {
+  width: 50%;
+}
+.btn img {
+  height: 25px;
+  margin-right: 20px;
+}
+.form-controll {
+  margin: 10px 0px;
+  width: 100%;
+}
+label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input:not([type="checkbox"]) {
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  width: 100%;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 14px;
+}
+.checkbox-container a {
+  margin: auto;
+}
+/* input:not([type="checkbox"]):focus {
+  background-color: rgb(116, 184, 240);
+} */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
