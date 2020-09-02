@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A E L I N - Page template</title>
+    <!--Meta tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--bootstrap|css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--additional|css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <!--Googlefont-1-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Roboto:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <!--font Awesome-->
+    <script src="https://kit.fontawesome.com/984b75d004.js" crossorigin="anonymous"></script>
+
+    <script src="G:\sakib+tanim(final)\sakib+tanim(final)\1.Simple_Login_page_light\reg.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <!--COMPANY-DESCRIPTION-->
+            <div class="col-md-7 company-desc">
+                <div class="jumbotron shadow wow fadeInLeft">
+                    <h1 class="display-4" style="font-family:'Baloo Tamma 2', cursive;">A E L I N</h1>
+                    <h6 class="lead" style="font-family:'Baloo Tamma 2', cursive;margin-bottom: 1rem;"><b>Welcome to
+                            AELIN.</b></h6>
+                    <p style="font-size: 14px;">Here we are providing 30 LogIn/Registration page templates where you
+                        will find colorful designs. All of them are mobile friendly responsive designs. And all are
+                        active as they are connected with database.</p>
+                </div>
+            </div>
+
+            <!--REGISTRATION FORM--->
+            <div class="col-md-5 ">
+                <div class="description">
+                    <h4>Register</h4>
+                    <h6 style="text-decoration: underline;">Create your Account</h6><br>
+                    <!--REGISTRATION-FORM-BOX-->
+                    <form novalidate action="" id="form" method="post" onsubmit="return registration()">
+                        <span class="lebel"><i class="fas fa-user-alt icon"></i> &nbsp;Name :</span>
+                        <input type="text" class="input" placeholder="Name" id="name"><br>
+                        <small style="margin-bottom: 0.3rem; font-style: italic;" id="nameerror"><br>
+                            <span class="lebel"><i class="fas fa-envelope-open icon"></i> &nbsp;Email :</span>
+                            <input type="email" class="input" placeholder="Email" id="email"><br>
+                            <small style="margin-bottom: 0.3rem; font-style: italic;" id="emailerror"><br>
+                                <span class="lebel"><i class="fas fa-lock icon"></i> &nbsp;Password :</span>
+                                <input type="password" class="input" placeholder="Password" id="password"><br>
+                                <small style="margin-bottom: 0.3rem; font-style: italic;" id="paserror"><br>
+                                    <span class="lebel"><i class="fas fa-lock icon"></i> &nbsp;Confirm Password :</span>
+                                    <input type="password" class="input" placeholder="Confirm Password"
+                                        id="cpassword"><br>
+                                    <small style="margin-bottom: 0.3rem; font-style: italic;" id="cpaserror"><br><br>
+                                        <input type="submit" class="btn btn-danger" value="Log-In"
+                                            style=" margin-bottom: 6px;">
+                    </form> <br>
+                    <!--LOGIN-FORM-LINK-->
+                    <p class="text-design text-center" style="margin-top: 5px;">Already have an account?<a
+                            class="text-muted" href="index.html">Log In</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--attachments-->
+    <!--bootstrap|js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
