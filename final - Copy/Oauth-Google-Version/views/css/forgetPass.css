@@ -1,0 +1,95 @@
+body{
+  background: #f7f7f7;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section{
+    background: #fff;
+    width: 20rem;;
+    height: 50vh;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+ }
+.shadow1{
+    border-radius: 2rem;
+    box-shadow: inset 0rem 0rem 1rem rgba(0,0,0,0.5);
+}
+.company-text{
+    font-family:'Baloo Tamma 2', cursive;
+    float: right;
+    display: block;
+    margin-top: -18rem;
+}
+.company-text-2{
+    font-family:'Baloo Tamma 2', cursive;
+    float: right;
+    display: block;
+    margin-top: -14rem;
+    margin-left: 24rem;
+    margin-bottom: 2rem;
+}
+.company-text-3{
+     font-family:'Baloo Tamma 2', cursive;
+    float: right;
+    display: block;
+    margin-top: -12rem;
+    margin-left: 24rem;
+    text-align: right;
+    font-size: 14px;
+}
+.lebel{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-family:'Baloo Tamma 2', cursive;
+    color: rgb(25, 42, 86);
+}
+.input{
+    background: transparent;
+    margin-top: 10px;
+    border: 2px solid rgb(25, 42, 86);
+    padding: 10px;
+    color: black;
+    width: 17rem;
+}
+::-webkit-input-placeholder{
+    color: rgba(0,0,0,0.7);
+}
+.btn-danger{
+    background:   rgb(25, 42, 86);
+    border-color: rgb(25, 42, 86);
+    width: 14rem;
+}
+.btn-danger:hover{
+    background: rgba(25, 42, 86,0.8);
+    transition-delay: 3s;
+    border-color: rgb(25, 42, 86);
+}
+.text-design{
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+a{
+    color:  rgb(25, 42, 86);
+    text-decoration: underline;
+    margin-left: 0.3rem;
+    font-weight: 500;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+    margin-left: 0.3rem;
+}
+
+.form-check-input{
+    width: 0.7rem;
+    background: transparent;
+}
